@@ -1,0 +1,45 @@
+{
+  "results": {
+    "Linear Regression": {
+      "MAE": 46213.79,
+      "MSE": 3586918702.56,
+      "RMSE": 59890.89,
+      "R2": 0.9046
+    },
+    "Random Forest": {
+      "MAE": 6513.19,
+      "MSE": 86025617.05,
+      "RMSE": 9275.0,
+      "R2": 0.9977
+    },
+    "Gradient Boosting": {
+      "MAE": 5670.55,
+      "MSE": 57022790.85,
+      "RMSE": 7551.34,
+      "R2": 0.9985
+    }
+  },
+  "best_model": "Gradient Boosting",
+  "best_r2": 0.9984829063282544,
+  "features": [
+    "area_sqft",
+    "bedrooms",
+    "bathrooms",
+    "age_years",
+    "floors",
+    "garage_spaces",
+    "has_pool",
+    "has_garden",
+    "location_enc",
+    "price_per_sqft",
+    "total_rooms",
+    "amenity_score"
+  ],
+  "locations": [
+    "Downtown",
+    "Midtown",
+    "Rural",
+    "Suburbs",
+    "Uptown"
+  ]
+}
